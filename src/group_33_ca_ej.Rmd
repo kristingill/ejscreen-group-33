@@ -23,6 +23,7 @@ ces %>%
   ggplot(aes(x = white_percent, y = ces_3_0_score)) +
   geom_hex() +
   labs(x = "Percentage of Population White",
-       y = "CalEnvrioScreen 3.0 Score")
+       y = "CalEnvrioScreen 3.0 Score",
+       title = "Aggregate CalEnviroScreen 3.0 scores versus percent population identifying as white") +
 ```
 
