@@ -24,8 +24,8 @@ ces %>%
   geom_hex() +
   labs(x = "Percentage of Population White",
        y = "CalEnvrioScreen 3.0 Score",
-       title = "Aggregate CalEnviroScreen 3.0 scores versus percent population identifying \n as white") +
-  scale_fill_gradient(low = "darkorchid4", high = "magenta") +
+       title = "CalEnviroScreen 3.0 Scores vs. Percentage of Population White") +
+  scale_fill_gradient(low = "navy", high = "orange") +
   theme_minimal()
 ```
 
