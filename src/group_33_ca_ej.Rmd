@@ -1,0 +1,20 @@
+---
+title: "Group 33 CA Pollution Burden"
+author: "Kristin Gill and Quinlan Smith"
+date: "11/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(janitor)
+library(here)
+```
+
+```{r}
+# read in the data
+ces <- read_csv(here("data", "ces3demographics.csv")) %>% 
+  clean_names()
+```
+
