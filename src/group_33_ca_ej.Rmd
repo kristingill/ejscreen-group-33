@@ -28,4 +28,4 @@ ces %>%
   scale_fill_gradient(low = "navy", high = "orange") +
   theme_minimal()
 ```
-
+This visualization shows a negative correlation between CalEnvironScreen 3.0 scores and the percentage of the census tract population that identifies as white; as the percentage white increases, the CES 3.0 score decreases.  In other words, in census tracts where there is a higher percentage of whites, there is a lower assessment of environmental health impact and pollution burden. 
